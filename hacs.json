@@ -1,0 +1,8 @@
+{
+    "name": "Wasp Sensor",
+    "hacs": "0.0.1",
+    "domains": [
+        "binary_sensor",
+    ],
+    "homeassistant": "0.118.0"
+}

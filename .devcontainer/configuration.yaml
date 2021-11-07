@@ -1,0 +1,33 @@
+default_config:
+
+logger:
+  default: info
+  logs:
+    custom_components.wasp_sensor: debug
+
+# If you need to debug uncomment the line below (doc: https://www.home-assistant.io/integrations/debugpy/)
+# debugpy:
+
+input_boolean:
+  motion_1:
+    name: Motion 1
+  motion_2:
+    name: Motion 2
+  box_1:
+    name: Box 1
+  box_2:
+    name: Box 2
+
+wasp_sensor:
+  - name: one
+    wasp_inv_sensors:
+      - input_boolean.motion_1
+    box_inv_sensors:
+      - input_boolean.box_1
+
+  # - name: two
+  #   wasp_sensors:
+  #     - input_boolean.motion_2
+  #   box_sensors:
+  #     - input_boolean.box_2
+

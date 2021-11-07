@@ -1,0 +1,4 @@
+reload:
+  description: >
+    Reload Wasp Sensor
+  fields:

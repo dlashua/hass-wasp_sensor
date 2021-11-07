@@ -1,0 +1,12 @@
+{
+  "domain": "wasp_sensor",
+  "name": "Wasp Sensor",
+  "documentation": "http://google.com",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "http://google.com",
+  "version": "0.0.0",
+  "config_flow": false,
+  "codeowners": [
+    "@dlashua"
+  ]
+}
