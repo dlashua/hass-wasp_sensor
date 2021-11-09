@@ -1,6 +1,6 @@
 {
     "name": "Wasp Sensor",
-    "hacs": "0.0.2",
+    "hacs": "0.0.3",
     "domains": [
         "binary_sensor"
     ],
