@@ -4,7 +4,7 @@
   "documentation": "https://github.com/dlashua/hass-wasp_sensor",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/dlashua/hass-wasp_sensor/issues",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "config_flow": false,
   "codeowners": [
     "@dlashua"
