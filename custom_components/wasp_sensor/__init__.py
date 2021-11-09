@@ -2,7 +2,7 @@
 Custom integration for Wasp Sensor
 
 For more details about this integration, please refer to
-blah blah blah
+https://github.com/dlashua/hass-wasp_sensor
 """
 import logging
 from typing import List, Dict

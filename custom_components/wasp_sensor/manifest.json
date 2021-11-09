@@ -1,10 +1,10 @@
 {
   "domain": "wasp_sensor",
   "name": "Wasp Sensor",
-  "documentation": "http://google.com",
+  "documentation": "https://github.com/dlashua/hass-wasp_sensor",
   "iot_class": "cloud_polling",
-  "issue_tracker": "http://google.com",
-  "version": "0.0.0",
+  "issue_tracker": "https://github.com/dlashua/hass-wasp_sensor/issues",
+  "version": "0.0.2",
   "config_flow": false,
   "codeowners": [
     "@dlashua"
